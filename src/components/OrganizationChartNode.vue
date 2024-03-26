@@ -10,7 +10,8 @@
           "
         >
           <div
-            :class="datasource.gender == 'm' ? 'chartNodeMale' : 'chartNodeFemale'"
+            class="chartNode"
+            :class="datasource.gender == 'm' ? 'cnMale' : 'cnFemale'"
             style="min-width: 9rem"
             :id="datasource.id"
             @click.stop="handleClick(datasource)"
@@ -81,16 +82,14 @@ export default {
   border-collapse: separate;
 }
 
-.chartNode, 
-.chartNodeMale, 
-.chartNodeFimale{
+.chartNode {
   box-sizing: border-box;
   display: inline-flex;
   flex-direction: column;
   position: relative;
   margin: 0 1px 2px 1px;
   max-width: 20px;
-  border: 1px solid #f56868;
+  border: 1px solid #054232;
   text-align: center;
   transition-property: color, background-color, border-color,
     text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
@@ -100,14 +99,22 @@ export default {
   border-radius: 0.35rem;
 }
 
-.chartNodeFimale {
+.cnMale {
+  border: 1px solid #ff0000 !important;
+}
+
+.cnFemale {
   border: 1px solid #054232  !important;
 }
 
-.chartNode:hover, 
-.chartNodeMale:hover, 
-.chartNodeFimale:hover {
-  box-shadow: 0 0 5px #f56868;
+.chartNode:hover {
+  box-shadow: 0 0 5px #ff0000;
+  cursor: default;
+  z-index: 20;
+}
+
+.chartNodeMale:hover {
+  box-shadow: 0 0 5px #ff0000;
   cursor: default;
   z-index: 20;
 }
@@ -116,34 +123,39 @@ export default {
   box-shadow: 0 0 5px #054232;
 }
 
-.chartTitle, 
-.chartTitleMale, 
-.chartTitleFimale{
+.chartTitleMale {
   text-align: center;
   font-size: 0.75rem;
   font-weight: bold;
   line-height: 1.25rem;
   overflow: hidden;
   white-space: nowrap;
-  background: #f56868;
+  background: #ff0000;
   color: white;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
 }
 
 .chartTitleFimale {
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: bold;
+  line-height: 1.25rem;
+  overflow: hidden;
+  white-space: nowrap;
   background: #054232 !important;
+  color: white;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
 }
 
-.chartContent, 
-.chartContentMale, 
-.chartContentFimale {
+.chartContentMale {
   box-sizing: border-box;
   width: 100%;
   height: 1.25rem;
   font-size: 0.75rem;
   line-height: 1rem;
-  border: #f56868;
+  border: #ff0000;
   text-align: center;
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -154,7 +166,19 @@ export default {
 }
 
 .chartContentFimale {
+  box-sizing: border-box;
+  width: 100%;
+  height: 1.25rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
   border: #054232 !important;
+  text-align: center;
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  background: white;
+  color: black;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .chartLines {
@@ -162,7 +186,7 @@ export default {
 }
 
 .chartDownLine {
-  background: #f56868;
+  background: #054232;
   margin-left: auto;
   margin-right: auto;
   height: 1.25rem;
@@ -171,19 +195,19 @@ export default {
 }
 
 .chartTopLine {
-  border-top-color: #f56868;
+  border-top-color: #054232;
   border-top-style: solid;
   border-top-width: 2px;
 }
 
 .chartRightLine {
-  border-right-color: #f56868;
+  border-right-color: #054232;
   border-right-style: solid;
   border-right-width: 1px;
 }
 
 .chartLeftLine {
-  border-left-color: #f56868;
+  border-left-color: #054232;
   border-left-style: solid;
   border-left-width: 1px;
 }
