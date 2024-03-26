@@ -12,7 +12,7 @@
           <div
             class="chartNode"
             :class="datasource.gender == 'm' ? 'cnMale' : 'cnFemale'"
-            style="min-width: 9rem"
+            style="min-width: 18rem"
             :id="datasource.id"
             @click.stop="handleClick(datasource)"
           >
@@ -26,10 +26,9 @@
                 <p style="margin-left: 0.5rem; margin-right: 0.5rem">
                   {{ datasource.title }}
                 </p>
-                <div class="grid grid-cols-3 gap-1">
-                  <div>{{ datasource?.birth_date }}</div>
-                  <div>{{ datasource?.date_of_death }}</div>
-                  <div>{{ datasource?.age }}</div>
+                <div class="grid grid-cols-2 gap-1" :class="datasource.gender == 'm' ? 'chartFooterMale' : 'chartFooterFemale'">
+                  <div style="border-right: 1px solid #fff;">{{ datasource?.birth_date }}/{{ datasource?.date_of_death }}</div>
+                  <div style="border-left: 1px solid #fff;">{{ datasource?.age }}</div>
                 </div>
               </div>
             </slot>
@@ -184,6 +183,32 @@ export default {
   color: black;
   overflow: hidden;
   white-space: nowrap;
+}
+
+.chartFooterMale {
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: bold;
+  line-height: 1.25rem;
+  overflow: hidden;
+  white-space: nowrap;
+  background: #ff0000;
+  color: white;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.chartFooterFemale {
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: bold;
+  line-height: 1.25rem;
+  overflow: hidden;
+  white-space: nowrap;
+  background: #054232 !important;
+  color: white;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
 }
 
 .chartLines {
