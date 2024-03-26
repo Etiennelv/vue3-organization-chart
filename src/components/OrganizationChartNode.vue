@@ -26,6 +26,11 @@
                 <p style="margin-left: 0.5rem; margin-right: 0.5rem">
                   {{ datasource.title }}
                 </p>
+                <div class="grid grid-cols-3 gap-1">
+                  <div>{{ datasource?.birth_date }}</div>
+                  <div>{{ datasource?.date_of_death }}</div>
+                  <div>{{ datasource?.age }}</div>
+                </div>
               </div>
             </slot>
           </div>
@@ -152,7 +157,7 @@ export default {
 .chartContentMale {
   box-sizing: border-box;
   width: 100%;
-  height: 1.25rem;
+  height: fit-content !important;
   font-size: 0.75rem;
   line-height: 1rem;
   border: #ff0000;
@@ -168,7 +173,7 @@ export default {
 .chartContentFemale {
   box-sizing: border-box;
   width: 100%;
-  height: 1.25rem;
+  height: fit-content !important;
   font-size: 0.75rem;
   line-height: 1rem;
   border: #054232 !important;
