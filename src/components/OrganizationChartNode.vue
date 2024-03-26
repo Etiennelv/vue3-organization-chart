@@ -27,7 +27,7 @@
                   {{ datasource.title }}
                 </p>
                 <div class="grid grid-cols-3 gap-1" :class="datasource.gender == 'm' ? 'chartFooterMale' : 'chartFooterFemale'">
-                  <div style="border-right: 2px solid #fff;" class="col-span-6">
+                  <div style="border-right: 2px solid #fff;" class="col-span-2">
                     <template v-if="datasource?.birth_date && datasource?.date_of_death">
                       {{ datasource?.birth_date }}/{{ datasource?.date_of_death }}
                     </template>
