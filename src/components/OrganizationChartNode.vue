@@ -10,18 +10,18 @@
           "
         >
           <div
-            class="chartNode"
+            :class="datasource.gender == 'm' ? 'chartNodeMale' : 'chartNodeFemale'"
             style="min-width: 9rem"
             :id="datasource.id"
             @click.stop="handleClick(datasource)"
           >
             <slot :node-data="datasource">
-              <div class="chartTitle">
+              <div :class="datasource.gender == 'm' ? 'chartTitleMale' : 'chartTitleFemale'">
                 <p style="margin-left: 0.5rem; margin-right: 0.5rem">
                   {{ datasource.name }}
                 </p>
               </div>
-              <div class="chartContent">
+              <div :class="datasource.gender == 'm' ? 'chartContentMale' : 'chartContentFemale'">
                 <p style="margin-left: 0.5rem; margin-right: 0.5rem">
                   {{ datasource.title }}
                 </p>
@@ -80,7 +80,9 @@ export default {
   border-collapse: separate;
 }
 
-.chartNode {
+.chartNode, 
+.chartNodeMale, 
+.chartNodeFimale{
   box-sizing: border-box;
   display: inline-flex;
   flex-direction: column;
@@ -96,13 +98,26 @@ export default {
   transition-duration: 300ms;
   border-radius: 0.35rem;
 }
-.chartNode:hover {
+
+.chartNodeFimale {
+  border: 1px solid #054232  !important;
+}
+
+.chartNode:hover, 
+.chartNodeMale:hover, 
+.chartNodeFimale:hover {
   box-shadow: 0 0 5px #f56868;
   cursor: default;
   z-index: 20;
 }
 
-.chartTitle {
+.chartNodeFimale:hover {
+  box-shadow: 0 0 5px #054232;
+}
+
+.chartTitle, 
+.chartTitleMale, 
+.chartTitleFimale{
   text-align: center;
   font-size: 0.75rem;
   font-weight: bold;
@@ -115,7 +130,13 @@ export default {
   border-top-right-radius: 0.25rem;
 }
 
-.chartContent {
+.chartTitleFimale {
+  background: #054232 !important;
+}
+
+.chartContent, 
+.chartContentMale, 
+.chartContentFimale {
   box-sizing: border-box;
   width: 100%;
   height: 1.25rem;
@@ -129,6 +150,10 @@ export default {
   color: black;
   overflow: hidden;
   white-space: nowrap;
+}
+
+.chartContentFimale {
+  border: #054232 !important;
 }
 
 .chartLines {
