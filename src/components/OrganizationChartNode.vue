@@ -27,7 +27,17 @@
                   {{ datasource.title }}
                 </p>
                 <div class="grid grid-cols-2 gap-1" :class="datasource.gender == 'm' ? 'chartFooterMale' : 'chartFooterFemale'">
-                  <div style="border-right: 1px solid #fff;">{{ datasource?.birth_date }}/{{ datasource?.date_of_death }}</div>
+                  <div style="border-right: 1px solid #fff;">
+                    <template v-if="datasource?.birth_date && datasource?.date_of_death">
+                      {{ datasource?.birth_date }}/{{ datasource?.date_of_death }}
+                    </template>
+                    <template v-if="datasource?.birth_date && !datasource?.date_of_death">
+                      Lahir {{ datasource?.birth_date }}
+                    </template>
+                    <template v-if="!datasource?.birth_date && datasource?.date_of_death">
+                      Meninggal {{ datasource?.date_of_death }}
+                    </template>
+                    </div>
                   <div style="border-left: 1px solid #fff;">{{ datasource?.age }}</div>
                 </div>
               </div>
@@ -192,10 +202,10 @@ export default {
   line-height: 1.25rem;
   overflow: hidden;
   white-space: nowrap;
-  background: #ff0000;
-  color: white;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
+  background: #d8d8d8 ;
+  color: #ff0000;
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
 }
 
 .chartFooterFemale {
@@ -205,10 +215,10 @@ export default {
   line-height: 1.25rem;
   overflow: hidden;
   white-space: nowrap;
-  background: #054232 !important;
-  color: white;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
+  background: #d8d8d8 !important;
+  color: #054232;
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
 }
 
 .chartLines {

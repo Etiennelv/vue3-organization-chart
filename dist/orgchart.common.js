@@ -112,6 +112,13 @@ module.exports = require("vue");
 
 /***/ }),
 
+/***/ "8d6a":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "d959":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -131,19 +138,12 @@ exports.default = (sfc, props) => {
 
 /***/ }),
 
-/***/ "eb8d":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
-/***/ "f99b":
+/***/ "e770":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_index_js_ref_1_1_OrganizationChartNode_vue_vue_type_style_index_0_id_7a9ef498_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("eb8d");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_index_js_ref_1_1_OrganizationChartNode_vue_vue_type_style_index_0_id_7a9ef498_lang_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_index_js_ref_1_1_OrganizationChartNode_vue_vue_type_style_index_0_id_7a9ef498_lang_css__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_index_js_ref_1_1_OrganizationChartNode_vue_vue_type_style_index_0_id_17abc7a6_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("8d6a");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_index_js_ref_1_1_OrganizationChartNode_vue_vue_type_style_index_0_id_17abc7a6_lang_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_index_js_ref_1_1_OrganizationChartNode_vue_vue_type_style_index_0_id_17abc7a6_lang_css__WEBPACK_IMPORTED_MODULE_0__);
 /* unused harmony reexport * */
 
 
@@ -207,7 +207,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 }
 // CONCATENATED MODULE: ./src/components/OrganizationChartContainer.vue?vue&type=template&id=365f96c0
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist??ref--1-1!./src/components/OrganizationChartNode.vue?vue&type=template&id=7a9ef498
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist??ref--1-1!./src/components/OrganizationChartNode.vue?vue&type=template&id=17abc7a6
 
 const _hoisted_1 = {
   class: "table"
@@ -262,7 +262,7 @@ const _hoisted_16 = /*#__PURE__*/Object(external_commonjs_vue_commonjs2_vue_root
 const _hoisted_17 = {
   class: "nodes"
 };
-function OrganizationChartNodevue_type_template_id_7a9ef498_render(_ctx, _cache, $props, $setup, $data, $options) {
+function OrganizationChartNodevue_type_template_id_17abc7a6_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_node = Object(external_commonjs_vue_commonjs2_vue_root_Vue_["resolveComponent"])("node");
   return Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])("table", _hoisted_1, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("tbody", null, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("tr", null, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("td", {
     colspan: $props.datasource.children && $props.datasource.children.length ? $props.datasource.children.length * 2 : null
@@ -276,14 +276,20 @@ function OrganizationChartNodevue_type_template_id_7a9ef498_render(_ctx, _cache,
   }, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["renderSlot"])(_ctx.$slots, "default", {
     nodeData: $props.datasource
   }, () => {
-    var _$props$datasource, _$props$datasource2, _$props$datasource3;
+    var _$props$datasource, _$props$datasource2, _$props$datasource3, _$props$datasource4, _$props$datasource5, _$props$datasource6, _$props$datasource7, _$props$datasource8, _$props$datasource9, _$props$datasource10, _$props$datasource11;
     return [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("div", {
       class: Object(external_commonjs_vue_commonjs2_vue_root_Vue_["normalizeClass"])($props.datasource.gender == 'm' ? 'chartTitleMale' : 'chartTitleFemale')
     }, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("p", _hoisted_4, Object(external_commonjs_vue_commonjs2_vue_root_Vue_["toDisplayString"])($props.datasource.name), 1)], 2), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("div", {
       class: Object(external_commonjs_vue_commonjs2_vue_root_Vue_["normalizeClass"])($props.datasource.gender == 'm' ? 'chartContentMale' : 'chartContentFemale')
     }, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("p", _hoisted_5, Object(external_commonjs_vue_commonjs2_vue_root_Vue_["toDisplayString"])($props.datasource.title), 1), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("div", {
       class: Object(external_commonjs_vue_commonjs2_vue_root_Vue_["normalizeClass"])(["grid grid-cols-2 gap-1", $props.datasource.gender == 'm' ? 'chartFooterMale' : 'chartFooterFemale'])
-    }, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("div", _hoisted_6, Object(external_commonjs_vue_commonjs2_vue_root_Vue_["toDisplayString"])((_$props$datasource = $props.datasource) === null || _$props$datasource === void 0 ? void 0 : _$props$datasource.birth_date) + "/" + Object(external_commonjs_vue_commonjs2_vue_root_Vue_["toDisplayString"])((_$props$datasource2 = $props.datasource) === null || _$props$datasource2 === void 0 ? void 0 : _$props$datasource2.date_of_death), 1), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("div", _hoisted_7, Object(external_commonjs_vue_commonjs2_vue_root_Vue_["toDisplayString"])((_$props$datasource3 = $props.datasource) === null || _$props$datasource3 === void 0 ? void 0 : _$props$datasource3.age), 1)], 2)], 2)];
+    }, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("div", _hoisted_6, [(_$props$datasource = $props.datasource) !== null && _$props$datasource !== void 0 && _$props$datasource.birth_date && (_$props$datasource2 = $props.datasource) !== null && _$props$datasource2 !== void 0 && _$props$datasource2.date_of_death ? (Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])(external_commonjs_vue_commonjs2_vue_root_Vue_["Fragment"], {
+      key: 0
+    }, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createTextVNode"])(Object(external_commonjs_vue_commonjs2_vue_root_Vue_["toDisplayString"])((_$props$datasource3 = $props.datasource) === null || _$props$datasource3 === void 0 ? void 0 : _$props$datasource3.birth_date) + "/" + Object(external_commonjs_vue_commonjs2_vue_root_Vue_["toDisplayString"])((_$props$datasource4 = $props.datasource) === null || _$props$datasource4 === void 0 ? void 0 : _$props$datasource4.date_of_death), 1)], 64)) : Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createCommentVNode"])("", true), (_$props$datasource5 = $props.datasource) !== null && _$props$datasource5 !== void 0 && _$props$datasource5.birth_date && !((_$props$datasource6 = $props.datasource) !== null && _$props$datasource6 !== void 0 && _$props$datasource6.date_of_death) ? (Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])(external_commonjs_vue_commonjs2_vue_root_Vue_["Fragment"], {
+      key: 1
+    }, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createTextVNode"])(" Lahir " + Object(external_commonjs_vue_commonjs2_vue_root_Vue_["toDisplayString"])((_$props$datasource7 = $props.datasource) === null || _$props$datasource7 === void 0 ? void 0 : _$props$datasource7.birth_date), 1)], 64)) : Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createCommentVNode"])("", true), !((_$props$datasource8 = $props.datasource) !== null && _$props$datasource8 !== void 0 && _$props$datasource8.birth_date) && (_$props$datasource9 = $props.datasource) !== null && _$props$datasource9 !== void 0 && _$props$datasource9.date_of_death ? (Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])(external_commonjs_vue_commonjs2_vue_root_Vue_["Fragment"], {
+      key: 2
+    }, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createTextVNode"])(" Meninggal " + Object(external_commonjs_vue_commonjs2_vue_root_Vue_["toDisplayString"])((_$props$datasource10 = $props.datasource) === null || _$props$datasource10 === void 0 ? void 0 : _$props$datasource10.date_of_death), 1)], 64)) : Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createCommentVNode"])("", true)]), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("div", _hoisted_7, Object(external_commonjs_vue_commonjs2_vue_root_Vue_["toDisplayString"])((_$props$datasource11 = $props.datasource) === null || _$props$datasource11 === void 0 ? void 0 : _$props$datasource11.age), 1)], 2)], 2)];
   })], 10, _hoisted_3)], 8, _hoisted_2)]), $props.datasource.children && $props.datasource.children.length ? (Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])(external_commonjs_vue_commonjs2_vue_root_Vue_["Fragment"], {
     key: 0
   }, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("tr", _hoisted_8, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("td", {
@@ -309,7 +315,7 @@ function OrganizationChartNodevue_type_template_id_7a9ef498_render(_ctx, _cache,
     })]), 1032, ["datasource", "handle-click"])]);
   }), 128))])], 64)) : Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createCommentVNode"])("", true)])]);
 }
-// CONCATENATED MODULE: ./src/components/OrganizationChartNode.vue?vue&type=template&id=7a9ef498
+// CONCATENATED MODULE: ./src/components/OrganizationChartNode.vue?vue&type=template&id=17abc7a6
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist??ref--1-1!./src/components/OrganizationChartNode.vue?vue&type=script&lang=js
 /* eslint-disable */
@@ -323,8 +329,8 @@ function OrganizationChartNodevue_type_template_id_7a9ef498_render(_ctx, _cache,
 });
 // CONCATENATED MODULE: ./src/components/OrganizationChartNode.vue?vue&type=script&lang=js
  
-// EXTERNAL MODULE: ./src/components/OrganizationChartNode.vue?vue&type=style&index=0&id=7a9ef498&lang=css
-var OrganizationChartNodevue_type_style_index_0_id_7a9ef498_lang_css = __webpack_require__("f99b");
+// EXTERNAL MODULE: ./src/components/OrganizationChartNode.vue?vue&type=style&index=0&id=17abc7a6&lang=css
+var OrganizationChartNodevue_type_style_index_0_id_17abc7a6_lang_css = __webpack_require__("e770");
 
 // EXTERNAL MODULE: ./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/exportHelper.js
 var exportHelper = __webpack_require__("d959");
@@ -338,7 +344,7 @@ var exportHelper_default = /*#__PURE__*/__webpack_require__.n(exportHelper);
 
 
 
-const __exports__ = /*#__PURE__*/exportHelper_default()(OrganizationChartNodevue_type_script_lang_js, [['render',OrganizationChartNodevue_type_template_id_7a9ef498_render]])
+const __exports__ = /*#__PURE__*/exportHelper_default()(OrganizationChartNodevue_type_script_lang_js, [['render',OrganizationChartNodevue_type_template_id_17abc7a6_render]])
 
 /* harmony default export */ var OrganizationChartNode = (__exports__);
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist??ref--1-1!./src/components/OrganizationChartContainer.vue?vue&type=script&lang=js
