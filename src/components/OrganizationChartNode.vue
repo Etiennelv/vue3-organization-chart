@@ -119,7 +119,7 @@ export default {
   z-index: 20;
 }
 
-.chartNodeFimale:hover {
+.chartNodeFemale:hover {
   box-shadow: 0 0 5px #054232;
 }
 
@@ -136,7 +136,7 @@ export default {
   border-top-right-radius: 0.25rem;
 }
 
-.chartTitleFimale {
+.chartTitleFemale {
   text-align: center;
   font-size: 0.75rem;
   font-weight: bold;
@@ -165,7 +165,7 @@ export default {
   white-space: nowrap;
 }
 
-.chartContentFimale {
+.chartContentFemale {
   box-sizing: border-box;
   width: 100%;
   height: 1.25rem;

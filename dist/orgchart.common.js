@@ -87,28 +87,21 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "0b47":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
-/***/ "13ca":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_index_js_ref_1_1_OrganizationChartNode_vue_vue_type_style_index_0_id_6d4ff1c9_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("0b47");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_index_js_ref_1_1_OrganizationChartNode_vue_vue_type_style_index_0_id_6d4ff1c9_lang_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_index_js_ref_1_1_OrganizationChartNode_vue_vue_type_style_index_0_id_6d4ff1c9_lang_css__WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
-
-
-/***/ }),
-
 /***/ "3ab8":
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
+
+/***/ }),
+
+/***/ "3b42":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_index_js_ref_1_1_OrganizationChartNode_vue_vue_type_style_index_0_id_7af63acd_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("b423");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_index_js_ref_1_1_OrganizationChartNode_vue_vue_type_style_index_0_id_7af63acd_lang_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_7_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_1_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_index_js_ref_1_1_OrganizationChartNode_vue_vue_type_style_index_0_id_7af63acd_lang_css__WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+
 
 /***/ }),
 
@@ -127,6 +120,13 @@ module.exports =
 /***/ (function(module, exports) {
 
 module.exports = require("vue");
+
+/***/ }),
+
+/***/ "b423":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -207,7 +207,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 }
 // CONCATENATED MODULE: ./src/components/OrganizationChartContainer.vue?vue&type=template&id=365f96c0
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist??ref--1-1!./src/components/OrganizationChartNode.vue?vue&type=template&id=6d4ff1c9
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist??ref--1-1!./src/components/OrganizationChartNode.vue?vue&type=template&id=7af63acd
 
 const _hoisted_1 = {
   class: "table"
@@ -252,7 +252,7 @@ const _hoisted_14 = /*#__PURE__*/Object(external_commonjs_vue_commonjs2_vue_root
 const _hoisted_15 = {
   class: "nodes"
 };
-function OrganizationChartNodevue_type_template_id_6d4ff1c9_render(_ctx, _cache, $props, $setup, $data, $options) {
+function OrganizationChartNodevue_type_template_id_7af63acd_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_node = Object(external_commonjs_vue_commonjs2_vue_root_Vue_["resolveComponent"])("node");
   return Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])("table", _hoisted_1, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("tbody", null, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("tr", null, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("td", {
     colspan: $props.datasource.children && $props.datasource.children.length ? $props.datasource.children.length * 2 : null
@@ -294,7 +294,7 @@ function OrganizationChartNodevue_type_template_id_6d4ff1c9_render(_ctx, _cache,
     })]), 1032, ["datasource", "handle-click"])]);
   }), 128))])], 64)) : Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createCommentVNode"])("", true)])]);
 }
-// CONCATENATED MODULE: ./src/components/OrganizationChartNode.vue?vue&type=template&id=6d4ff1c9
+// CONCATENATED MODULE: ./src/components/OrganizationChartNode.vue?vue&type=template&id=7af63acd
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist??ref--1-1!./src/components/OrganizationChartNode.vue?vue&type=script&lang=js
 /* eslint-disable */
@@ -308,8 +308,8 @@ function OrganizationChartNodevue_type_template_id_6d4ff1c9_render(_ctx, _cache,
 });
 // CONCATENATED MODULE: ./src/components/OrganizationChartNode.vue?vue&type=script&lang=js
  
-// EXTERNAL MODULE: ./src/components/OrganizationChartNode.vue?vue&type=style&index=0&id=6d4ff1c9&lang=css
-var OrganizationChartNodevue_type_style_index_0_id_6d4ff1c9_lang_css = __webpack_require__("13ca");
+// EXTERNAL MODULE: ./src/components/OrganizationChartNode.vue?vue&type=style&index=0&id=7af63acd&lang=css
+var OrganizationChartNodevue_type_style_index_0_id_7af63acd_lang_css = __webpack_require__("3b42");
 
 // EXTERNAL MODULE: ./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/exportHelper.js
 var exportHelper = __webpack_require__("d959");
@@ -323,7 +323,7 @@ var exportHelper_default = /*#__PURE__*/__webpack_require__.n(exportHelper);
 
 
 
-const __exports__ = /*#__PURE__*/exportHelper_default()(OrganizationChartNodevue_type_script_lang_js, [['render',OrganizationChartNodevue_type_template_id_6d4ff1c9_render]])
+const __exports__ = /*#__PURE__*/exportHelper_default()(OrganizationChartNodevue_type_script_lang_js, [['render',OrganizationChartNodevue_type_template_id_7af63acd_render]])
 
 /* harmony default export */ var OrganizationChartNode = (__exports__);
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist??ref--1-1!./src/components/OrganizationChartContainer.vue?vue&type=script&lang=js
