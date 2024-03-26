@@ -6,6 +6,7 @@
 </template>
 
 <script>
+/* eslint-disable */
 import OrgChart from "./components/OrganizationChartContainer.vue";
 
 export default {

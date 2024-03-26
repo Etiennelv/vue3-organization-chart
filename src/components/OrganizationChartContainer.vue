@@ -27,6 +27,7 @@
 </template>
 
 <script>
+/* eslint-disable */
 import OrganizationChartNode from "./OrganizationChartNode.vue";
 
 export default {

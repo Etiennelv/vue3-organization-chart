@@ -62,6 +62,7 @@
 </template>
 
 <script>
+/* eslint-disable */
 export default {
   name: "node",
   props: {

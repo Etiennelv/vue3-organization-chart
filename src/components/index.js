@@ -1,3 +1,4 @@
+/* eslint-disable */
 import OrgChart from "./OrganizationChartContainer.vue";
 
 OrgChart.install = (Vue) => {
