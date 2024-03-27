@@ -12,7 +12,7 @@
           <div
             class="chartNode"
             :class="datasource.gender == 'm' ? 'cnMale' : 'cnFemale'"
-            style="min-width: 18rem"
+            style="min-width: 16rem"
             :id="datasource.id"
             @click.stop="handleClick(datasource)"
           >
@@ -23,10 +23,10 @@
                 </p>
               </div>
               <div :class="datasource.gender == 'm' ? 'chartContentMale' : 'chartContentFemale'">
-                <p style="margin-left: 0.5rem; margin-right: 0.5rem">
-                  {{ datasource.title }}
-                </p>
-                <div class="grid grid-cols-3 gap-1" :class="datasource.gender == 'm' ? 'chartFooterMale' : 'chartFooterFemale'">
+                <div style="margin-left: 0.5rem; margin-right: 0.5rem">
+                  <img :src="datasource?.image" class="image_profile" />
+                </div>
+                <div class="grid grid-cols-3 gap-1 font-sm" :class="datasource.gender == 'm' ? 'chartFooterMale' : 'chartFooterFemale'">
                   <div style="border-right: 2px solid #fff;" class="col-span-2">
                     <template v-if="datasource?.birth_date && datasource?.date_of_death">
                       {{ datasource?.birth_date }}/{{ datasource?.date_of_death }}
@@ -121,20 +121,16 @@ export default {
   border: 1px solid #054232  !important;
 }
 
-.chartNode:hover {
+.cnMale:hover {
   box-shadow: 0 0 5px #ff0000;
-  cursor: default;
+  cursor: pointer;
   z-index: 20;
 }
 
-.chartNodeMale:hover {
-  box-shadow: 0 0 5px #ff0000;
-  cursor: default;
-  z-index: 20;
-}
-
-.chartNodeFemale:hover {
+.cnFemale:hover {
   box-shadow: 0 0 5px #054232;
+  cursor: pointer;
+  z-index: 20;
 }
 
 .chartTitleMale {
@@ -250,5 +246,14 @@ export default {
   border-left-color: #054232;
   border-left-style: solid;
   border-left-width: 1px;
+}
+
+.image_profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  width: 110px !important;
+  height: 150px !important;
 }
 </style>
